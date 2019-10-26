@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 from sklearn.utils import shuffle
 import random
 
+# The dataset 'after' post-processing and cleaning
 eeg_data = 'EEG_dataset_complete.csv'
+
 loaded = False
 
 def pad(single_signal):
@@ -19,12 +21,13 @@ def pad(single_signal):
 	
 def load_data():
 	try:
+		# Look for the cleaned dataset - if none, you'll be asked to load the original and clean it.
 		dataset = pd.read_csv(eeg_data)
 		loaded = True
 	except:
 		ans = input("[!] No dataset found! Would you like to load the original?\nyes/y or no/n: ")
 		if ans == 'yes' or ans == 'y':
-			dataset = pd.read_csv('C:/Users/gabri/Desktop/python_work/EP1.01.txt', sep="\t", names=["id", "event", "device", "channel", "code", "size", "data"], error_bad_lines=False)
+			dataset = pd.read_csv('EP1.01.txt', sep="\t", names=["id", "event", "device", "channel", "code", "size", "data"], error_bad_lines=False)
 		else:
 			exit(0)
 
