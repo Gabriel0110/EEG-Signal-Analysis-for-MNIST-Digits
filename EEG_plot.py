@@ -79,7 +79,6 @@ plt.show()
 max_range = 0
 min_range = 10000
 count = 0
-sigs = []
 for i in range(len(dataset)):
     if count == 20:
         break
@@ -94,7 +93,6 @@ for i in range(len(dataset)):
             min_range = np.min(single_signal)
 
         plt.plot(np.arange(0, 2, 0.0076923076923077), single_signal)
-        sigs.append(single_signal)
 
 plt.xticks(np.arange(0, 2, step=0.2))
 plt.yticks(np.arange(np.floor(min_range - 20.), np.floor(max_range + 20.), step=20))
