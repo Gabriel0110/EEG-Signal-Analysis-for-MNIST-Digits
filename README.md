@@ -4,17 +4,17 @@ Simple analysis and plotting of EEG brain signals from a person seeing MNIST dig
 You can find the data set here: http://mindbigdata.com/opendb/index.html (I am using the EPOC data for this code)
 
 
-![GitHub Logo](/signal_plot_01.png)
+![Plot One](https://github.com/Gabriel0110/EEG-Signal-Plotting-for-MNIST-Digits/blob/master/signal_plot_01.PNG/signal_plot_01.png)
 Format: ![Alt Text](url)
 
 
-![GitHub Logo](/signal_plot_02.png)
+![Plot Two](/signal_plot_02.png)
 Format: ![Alt Text](url)
 
 
-![GitHub Logo](/signal_plot_03.png)
+![Plot Three](/signal_plot_03.png)
 Format: ![Alt Text](url)
 
 
-![GitHub Logo](/signal_plot_04.png)
+![Plot Four](/signal_plot_04.png)
 Format: ![Alt Text](url)
