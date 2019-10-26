@@ -7,13 +7,10 @@ You can find the data set here: http://mindbigdata.com/opendb/index.html (I am u
 ![Plot One](signal_plot_01.PNG)
 
 
-![Plot Two](/signal_plot_02.png)
-Format: ![Alt Text](url)
+![Plot Two](signal_plot_02.PNG)
 
 
-![Plot Three](/signal_plot_03.png)
-Format: ![Alt Text](url)
+![Plot Three](signal_plot_03.PNG)
 
 
-![Plot Four](/signal_plot_04.png)
-Format: ![Alt Text](url)
+![Plot Four](signal_plot_04.PNG)
